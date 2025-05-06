@@ -1,0 +1,3 @@
+const SPREADSHEET_ID = '1DzWC671BAulfVOoCStL9n2_6iC4zFRhGVMFCSxg5f20';
+const API_KEY = 'AIzaSyA78gUHhzwWTi6f45X5XgA9f-jv42H_3jk';
+const RANGE = 'CardList!A2:E';

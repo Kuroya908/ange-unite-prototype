@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>アンジュ・ユナイト ツール</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>デッキ構築</h1>
+    <div id="deck-builder">
+        <div id="card-search">
+            <input type="text" id="search-box" placeholder="カード名で検索">
+            <select id="version-select">
+                <option value="">バージョンを選択</option>
+            </select>
+            <select id="type-select">
+                <option value="">カード種別を選択</option>
+            </select>
+            <button id="clear-button">クリア</button>
+            <div id="card-list"></div>
+        </div>
+        <div id="deck-area">
+            <h2>デッキリスト</h2>
+            <ul id="deck-list"></ul>
+            <p>合計: <span id="deck-count">0</span> / 43枚</p>
+        </div>
+    </div>
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script src="deck.js"></script>
+</body>
+</html>
